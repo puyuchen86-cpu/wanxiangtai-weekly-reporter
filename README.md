@@ -14,7 +14,7 @@
 
 ## 安装
 
-私有仓库要求安装者的 Git 已有该仓库访问权限。
+仓库已公开，无需邀请协作者，也无需登录 GitHub；任何人都可以直接安装。
 
 ```powershell
 codex plugin marketplace add puyuchen86-cpu/wanxiangtai-weekly-reporter --ref main
