@@ -1,0 +1,20 @@
+{
+  "name": "puyuchen86-wanxiangtai",
+  "interface": {
+    "displayName": "万相台周报工具"
+  },
+  "plugins": [
+    {
+      "name": "wanxiangtai-weekly-reporter",
+      "source": {
+        "source": "local",
+        "path": "./plugins/wanxiangtai-weekly-reporter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

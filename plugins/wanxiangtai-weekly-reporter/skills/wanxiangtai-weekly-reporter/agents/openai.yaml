@@ -1,0 +1,7 @@
+interface:
+  display_name: "万相台周报助手"
+  short_description: "创建飞书万相台周报，按日期抓取完整计划素材并安全追加历史数据"
+  default_prompt: "使用 $wanxiangtai-weekly-reporter 抓取指定日期范围的万相台人群推广数据，并安全追加到飞书周报。"
+
+policy:
+  allow_implicit_invocation: true

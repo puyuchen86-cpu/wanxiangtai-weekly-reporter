@@ -1,0 +1,28 @@
+{
+  "name": "wanxiangtai-weekly-reporter",
+  "version": "0.1.0",
+  "description": "Create Feishu weekly-report workbooks and append complete Alibaba Wanxiangtai audience-promotion data without overwriting history.",
+  "author": {
+    "name": "puyuchen86-cpu",
+    "email": "puyuchen86@gmail.com",
+    "url": "https://github.com/puyuchen86-cpu"
+  },
+  "homepage": "https://github.com/puyuchen86-cpu/wanxiangtai-weekly-reporter",
+  "repository": "https://github.com/puyuchen86-cpu/wanxiangtai-weekly-reporter",
+  "license": "UNLICENSED",
+  "keywords": ["wanxiangtai", "alimama", "feishu", "weekly-report", "advertising"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "万相台周报助手",
+    "shortDescription": "按日期抓取万相台计划与全部素材，安全追加到飞书周报",
+    "longDescription": "首次配置时创建统一飞书周报并建立品牌计划映射；之后只需提供日期范围，即可完整抓取计划和素材、追加数据、计算直接 ROI、标记最佳素材并验证历史未被覆盖。",
+    "developerName": "puyuchen86-cpu",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "初始化我的万相台周报并创建飞书表格。",
+      "抓取 9.7-9.13，追加到周报且不要覆盖历史。",
+      "检查本周万相台周报是否全部填写并验证通过。"
+    ]
+  }
+}

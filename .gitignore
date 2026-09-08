@@ -1,0 +1,18 @@
+# Local profiles, credentials, runs, and downloaded media
+.codex-local/
+profiles/
+plan-data/
+downloads/
+*.session.json
+*.token.json
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
